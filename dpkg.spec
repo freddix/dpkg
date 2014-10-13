@@ -1,13 +1,14 @@
+# based on PLD Linux spec git://git.pld-linux.org/packages/dpkg.git
 %include	/usr/lib/rpm/macros.perl
 
 Summary:	Debian Package Manager
 Name:		dpkg
-Version:	1.16.10
+Version:	1.16.15
 Release:	1
 License:	GPL v2+
 Group:		Applications/File
 Source0:	ftp://ftp.debian.org/debian/pool/main/d/dpkg/%{name}_%{version}.tar.xz
-# Source0-md5:	a20a06a5272717274a8b009368f237da
+# Source0-md5:	0e7d105a57839cdab2b0bf5e3612442f
 URL:		http://packages.debian.org/search?keywords=dpkg
 BuildRequires:	bzip2-devel
 BuildRequires:	gettext-devel
